@@ -48,7 +48,7 @@ function convertToSymbol(item)
 	{
 		case "bitmap":
 		{			
-			sysmbol = doc.convertToSymbol('movie clip', name, 'top left');
+			symbol = doc.convertToSymbol('movie clip', name, 'top left');
 			lib.setItemProperty('scalingGrid',  true);
 			doc.enterEditMode();
 			doc.breakApart();
