@@ -68,7 +68,7 @@ function convertToSymbol(item)
 				doc.selectAll();
 				if (doc.selection.length != 1) 
 				{
-					trace("[" + symbol.name + "]子元件个数：" + doc.selection.length);
+					trace("[" + symbol.name + "]子元件个数：" + doc.selection.length, doc.selection);
 					return false;
 				}
 				
